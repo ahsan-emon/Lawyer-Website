@@ -1,0 +1,35 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .bg-what-we-do {
+    height: 490px;
+  }
+}
+@media screen and (min-width: 709px) and (max-width: 768px) {
+  .bg-what-we-do {
+    width: 70%;
+    height: 86%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 708px) {
+  .bg-what-we-do {
+    width: 80%;
+    height: 93%;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .bg-what-we-do {
+    width: 90%;
+    height: 92%;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .bg-what-we-do {
+    width: 95%;
+    height: 90%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .bg-what-we-do {
+    width: 95%;
+    height: 89%;
+  }
+}
