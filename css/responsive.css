@@ -2,11 +2,21 @@
   .bg-what-we-do {
     height: 490px;
   }
+  .header-part h1 {
+    font-size: 70px;
+  }
 }
 @media screen and (min-width: 709px) and (max-width: 768px) {
   .bg-what-we-do {
     width: 70%;
     height: 86%;
+  }
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .header-part h1 {
+    font-size: 60px;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 708px) {
@@ -14,11 +24,82 @@
     width: 80%;
     height: 93%;
   }
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .header-part h1 {
+    font-size: 50px;
+  }
+  .down-arrow {
+    bottom: 50px;
+  }
+  @keyframes header-down-arrow {
+    0% {
+      bottom: 50px;
+    }
+    100% {
+      bottom: 70px;
+    }
+  }
 }
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .bg-what-we-do {
     width: 90%;
     height: 92%;
+  }
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .header-part h1 {
+    font-size: 35px;
+  }
+  .down-arrow {
+    font-size: 20px;
+    bottom: 50px;
+  }
+  @keyframes header-down-arrow {
+    0% {
+      bottom: 50px;
+    }
+    100% {
+      bottom: 70px;
+    }
+  }
+  .who-we-are h2,
+  .what-we-do h2,
+  .our-attorneys h2,
+  .contact-section h2,
+  .languages-section h2 {
+    font-size: 30px;
+  }
+  .who-we-are p,
+  .our-attorneys p,
+  .languages-section p {
+    font-size: 13px;
+  }
+  .our-attorneys h6 {
+    font-size: 15px;
+  }
+  .languages-section h3 {
+    font-size: 20px;
+  }
+  .languages-section h6 {
+    font-size: 13px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  footer ul li a {
+    font-size: 15px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -26,10 +107,116 @@
     width: 95%;
     height: 90%;
   }
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .header-part h1 {
+    font-size: 30px;
+  }
+  .down-arrow {
+    font-size: 20px;
+    bottom: 50px;
+  }
+  @keyframes header-down-arrow {
+    0% {
+      bottom: 50px;
+    }
+    100% {
+      bottom: 70px;
+    }
+  }
+  .who-we-are h2,
+  .what-we-do h2,
+  .our-attorneys h2,
+  .contact-section h2,
+  .languages-section h2 {
+    font-size: 25px;
+  }
+  .who-we-are p,
+  .our-attorneys p,
+  .languages-section p {
+    font-size: 13px;
+  }
+  .our-attorneys h6 {
+    font-size: 15px;
+  }
+  .languages-section h3 {
+    font-size: 20px;
+  }
+  .languages-section h6 {
+    font-size: 13px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  footer ul li a {
+    font-size: 15px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .bg-what-we-do {
     width: 95%;
     height: 89%;
+  }
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .header-part h1 {
+    font-size: 30px;
+  }
+  .down-arrow {
+    font-size: 20px;
+    bottom: 50px;
+  }
+  @keyframes header-down-arrow {
+    0% {
+      bottom: 50px;
+    }
+    100% {
+      bottom: 70px;
+    }
+  }
+  .who-we-are h2,
+  .what-we-do h2,
+  .our-attorneys h2,
+  .contact-section h2,
+  .languages-section h2 {
+    font-size: 25px;
+  }
+  .who-we-are p,
+  .our-attorneys p,
+  .languages-section p {
+    font-size: 13px;
+  }
+  .our-attorneys h6 {
+    font-size: 15px;
+  }
+  .languages-section h3 {
+    font-size: 20px;
+  }
+  .languages-section h6 {
+    font-size: 13px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  footer ul li a {
+    font-size: 15px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
   }
 }
